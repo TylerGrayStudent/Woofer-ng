@@ -1,0 +1,7 @@
+{
+  "name": "Woofer-ng",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
