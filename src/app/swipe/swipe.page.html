@@ -1,0 +1,10 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title class="ion-text-center">Find Your Match</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-button expand="block" (click)="refresh()">Next</ion-button>
+  <app-card [imageUrl]="currImage$ | async"> </app-card>
+</ion-content>
