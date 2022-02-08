@@ -1,0 +1,10 @@
+<div class="flex flex-col my-24">
+  <div class="flex overflow-x-scroll">
+    <div *ngFor="let card of cards">
+      <app-card
+        [loading]="card.loading$ | async"
+        [imageUrl]="card.data$ | async"
+      ></app-card>
+    </div>
+  </div>
+</div>

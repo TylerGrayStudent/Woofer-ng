@@ -1,10 +1,11 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
+import { IonicModule } from '@ionic/angular';
 import { CardComponent } from './card.component';
 
 @NgModule({
   declarations: [CardComponent],
-  imports: [CommonModule],
+  imports: [CommonModule, IonicModule],
   exports: [CardComponent],
 })
 export class CardModule {}

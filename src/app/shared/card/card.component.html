@@ -1,1 +1,4 @@
-<img [src]="imageUrl" />
+<ion-card style="min-height: 70vh" class="w-96 px-4 flex-shrink-0">
+  <img [src]="imageUrl" />
+  <div *ngIf="loading">loading...</div>
+</ion-card>

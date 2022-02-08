@@ -5,7 +5,7 @@ const routes: Routes = [
   {
     path: '',
     loadChildren: () =>
-      import('./swipe/swipe.module').then((m) => m.SwipePageModule),
+      import('./main/main.module').then((m) => m.MainPageModule),
   },
 ];
 @NgModule({
